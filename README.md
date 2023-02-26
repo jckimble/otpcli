@@ -1,18 +1,20 @@
 # OtpCli 
-[![pipeline status](https://gitlab.com/jckimble/otpcli/badges/master/pipeline.svg)](https://gitlab.com/jckimble/otpcli/commits/master)
+![build status](https://github.com/jckimble/otpcli/actions/workflows/build.yml/badge.svg?branch=master)
 
 A quick tool for totp tokens. Made cause other desktop authenticators bug me.
 
 ---
-* [Install](#install)
-* [Configuration](#configuration)
-* [License](#license)
+- [OtpCli](#otpcli)
+  - [Install](#install)
+    - [Rofi](#rofi)
+  - [Configuration](#configuration)
+  - [License](#license)
 
 ---
 
 ## Install
 ```sh
-go install gitlab.com/jckimble/otpcli
+go install github.com/jckimble/otpcli
 ```
 ### Rofi
 ```sh
